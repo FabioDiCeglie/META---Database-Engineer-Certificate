@@ -36,3 +36,5 @@ SELECT *
 FROM Bookings 
 WHERE BookingDate = InputDate;
 CALL GetBookingsData ("2021-11-13");
+
+SELECT CONCAT("ID: ", BookingID,', Date: ', BookingDate,', Number of guests: ', NumberOfGuests) AS "Booking Details" FROM Bookings;

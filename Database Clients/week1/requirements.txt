@@ -1,0 +1,18 @@
+certifi==2023.5.7
+cffi @ file:///private/tmp/cffi-20231014-5454-1xfyd4s/cffi-1.16.0
+charset-normalizer==3.1.0
+cryptography @ file:///private/tmp/python-cryptography-20231016-6219-12ft0rn/cryptography-41.0.4
+et-xmlfile==1.1.0
+idna==3.4
+mysql-connector-python==8.3.0
+numpy==1.26.0
+openpyxl==3.1.2
+pandas==2.1.1
+protobuf==4.24.4
+pycparser @ file:///private/tmp/pycparser-20231013-5559-1dtd22y/pycparser-2.21
+python-dateutil==2.8.2
+pytz==2023.3.post1
+requests==2.31.0
+six==1.16.0
+tzdata==2023.3
+urllib3==2.0.3

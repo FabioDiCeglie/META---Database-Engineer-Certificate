@@ -18,7 +18,7 @@ if connection and connection.is_connected():
 else:
     print("Connection is already closed")
 
-cursor = connection.cursor()
+cursor = connection.cursor(buffered= True)
 
 cursor.execute("SHOW DATABASES")
 for database in cursor:
@@ -46,4 +46,35 @@ PRIMARY KEY (MenuID,ItemID)
 cursor.execute(create_menu_table)
 cursor.execute("SHOW TABLES")
 for table in cursor:
+    print(table)
+
+# Task 1
+cursor.execute("USE little_lemon")
+cursor.execute("SHOW TABLES")
+
+results = cursor.fetchall()
+
+# Using for loop to print the names of all the tables
+for table in results:
+    print(table)
+
+# Task 2
+cursor.execute("USE little_lemon")
+cursor.execute("SELECT * FROM MenuItems")
+cursor.execute("SELECT * FROM Menus")
+
+# Task 3 Dictionary object
+
+dic_cursor = connection.cursor(dictionary= True)
+
+# Set database in use
+dic_cursor.execute('USE little_lemon;')
+
+# SQL query to GET the name of the tables
+dic_cursor.execute("SHOW TABLES;")
+
+# Retrieve the query outcomes
+results = dic_cursor.fetchall()
+
+for table in results:
     print(table)

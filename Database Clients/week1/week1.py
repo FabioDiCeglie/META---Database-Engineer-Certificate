@@ -3,10 +3,10 @@ import mysql.connector as connector
 print("Establishing a new connection between MySQL and Python.")
 
 try:
-    connection=connector.connect(
+    connection = connector.connect(
         user="ameta",
         password="password",
-        database = "test")
+        database="test")
 
 except connector.Error as er:
     print("Error code:", er.errno)

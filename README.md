@@ -60,6 +60,7 @@ The goal of the project is to build a database system for Little Lemon restauran
 
 5. **Python Database Connectivity**:
    - [PYTHON CONNECTOR](./final.py): Python script demonstrating connectivity to a MySQL database using `mysql-connector-python` and executing queries.
+   - [JUPYTER](./LittleLemon-db-client.ipynb): Jupyter file with scripts.
 
 ## Skills acquired
 * Create an entity relationship diagram using MySQL Workbench

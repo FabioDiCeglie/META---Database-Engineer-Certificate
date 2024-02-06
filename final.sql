@@ -43,7 +43,7 @@ ALTER TABLE bookings
 MODIFY COLUMN bookingID INT AUTO_INCREMENT;
 
 ALTER TABLE customers
-ADD CONSTRAINT fk_bookingID FOREIGN KEY (bookingID) REFERENCES bookings(bookingID) ON UPDATE CASCADE;
+ADD CONSTRAINT bookingID FOREIGN KEY (bookingID) REFERENCES bookings(bookingID) ON UPDATE CASCADE;
 
 DROP PROCEDURE IF EXISTS AddValidBooking;
 
@@ -104,6 +104,8 @@ DROP PROCEDURE IF EXISTS GetMaxQuantity;
 CREATE PROCEDURE GetMaxQuantity()
 SELECT MAX(quantity) as max_quantity_in_order from orders;
 CALL GetMaxQuantity();
+
+
 -- Select statement
 PREPARE GetOrderDetail FROM 'SELECT orderID, quantity, totalCost FROM orders WHERE orderID = ?';
 SET @id = 1;

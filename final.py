@@ -1,6 +1,6 @@
 import mysql.connector as connector
 
-connection = connector.connect(user = "root", password = "f0rensic.Science",  db = "LittleLemonDB")
+connection = connector.connect(user = "root", password = "root",  db = "LittleLemonDB")
 print("Connection between MySQL and Python is established.\n")
 
 # Create cursor object to communicate with entire MySQL database

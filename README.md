@@ -45,17 +45,17 @@ The goal of the project is to build a database system for Little Lemon restauran
 ## Contents Main Folder - List of files and folders
 
 1. **MySQL Workbench ER Diagram and Database Creation**:
-   - [final_ass_db.png](./final_ass_db.png):: ER diagram depicting the database structure.
-   - [final_exam.mwb](./final_exam.mwb): MySQL Workbench file for the ER diagram and forward engineering.
+   - [ER DIAGRAM DATABASE](./final_ass_db.png):: ER diagram depicting the database structure.
+   - [ER DATABASE](./final_database_er.mwb): MySQL Workbench file for the ER diagram and forward engineering.
 
 2. **SQL Scripts**:
-   - [final.sql](./final.sql) and [finalpt2.sql](./finalpt2.sql): SQL scripts containing views, tables, procedures, statements and CRUD operations for a table booking system.
+   - [SCRIPTS](./final.sql) and [CRUD OPERATIONS](./crud_operations.sql): SQL scripts containing views, tables, procedures, statements and CRUD operations for a table booking system.
 
 3. **Data Visualization**:
-   - [FinalTableau.twb](./FinalTableau.twb): Tableau workbook for visualizing data.
+   - [TABLEAU](./FinalTableau.twb): Tableau workbook for visualizing data.
 
 4. **Python Database Connectivity**:
-   - [final.py](./final.py): Python script demonstrating connectivity to a MySQL database using `mysql-connector-python` and executing queries.
+   - [PYTHON CONNECTOR](./final.py): Python script demonstrating connectivity to a MySQL database using `mysql-connector-python` and executing queries.
 
 ## Skills acquired
 * Create an entity relationship diagram using MySQL Workbench

@@ -17,6 +17,7 @@ In this course, I acquired proficiency in:
 
 ## Notes
 
+The main folder contains the final exam.
 Each folder in this repository represents a course module aimed at completing the Meta Database Engineer Certificate. Feel free to explore and utilize the resources provided here for your learning and reference purposes.
 
 # Final Exam Developing a MySQL Relational Database System with Python Client Integration

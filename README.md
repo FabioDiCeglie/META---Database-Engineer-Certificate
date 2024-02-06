@@ -47,6 +47,7 @@ The goal of the project is to build a database system for Little Lemon restauran
 1. **MySQL Workbench ER Diagram and Database Creation**:
    - [ER DIAGRAM DATABASE](./final_ass_db.png):: ER diagram depicting the database structure.
    - [ER DATABASE](./final_database_er.mwb): MySQL Workbench file for the ER diagram and forward engineering.
+   - [DATABASE SQL SCRIPT](./creation_database_script.sql): SQL Script for creating database.
 
 2. **SQL Scripts**:
    - [SCRIPTS](./final.sql) and [CRUD OPERATIONS](./crud_operations.sql): SQL scripts containing views, tables, procedures, statements and CRUD operations for a table booking system.

@@ -24,7 +24,7 @@ Each folder in this repository represents a course module aimed at completing th
 
 ![little_lemon_logo_small](https://github.com/CelineBoutinon/little-lemon/assets/143210563/591c0036-f1d9-46c7-8fdf-e90fc978ff6f)
 
-![Badge_small]()
+![Badge_small]('./badge.png')
 
 Capstone project for the META database engineer specialization on Coursera
 
